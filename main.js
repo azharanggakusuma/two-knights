@@ -9,7 +9,7 @@ function countWaysToPlaceKnights(n) {
   const ways = [];
 
   for (let k = 1; k <= n; k++) {
-    // TODO: Perhitungan cara penempatan kuda pada papan catur berukuran kxk
+    // Perhitungan cara penempatan kuda pada papan catur berukuran kxk
     if (k === 1) {
       ways.push(0);
     } else if (k === 2) {
